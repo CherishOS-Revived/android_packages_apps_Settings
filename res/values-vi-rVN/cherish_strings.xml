@@ -1,5 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- CherishOS versioning -->
+    <string name="cherish_version_title">Phiên bản Cherish</string>
+    <string name="about_device_info">Về thiết bị</string>
+    <string name="cherish_device_title">Thiết bị</string>
+    <string name="cherish_build_version_title">Phiên bản đóng gói</string>
+    <string name="cherish_build_date_title">Ngày dựng</string>
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="gesture_illustration_description">Điều khiển thiết bị của bạn một cách dễ dàng.</string>
+    <string name="connected_setting_description">Quản lý kết nối của thiết bị của bạn.</string>
+    <string name="accessibility_illustration_description">Tính năng dễ dàng truy cập cho tất cả mọi người.</string>
+    <string name="account_illustration_description">Quản lý mật khẩu và tài khoản người dùng của bạn.</string>
+    <string name="display_illustration_description">Điều chỉnh cấu hình hiển thị như độ sáng, màu sắc, v. v.</string>
+    <string name="wifi_illustration_description">Quản lý kết nối mạng, nhà cung cấp DNS, điểm phát sóng, v. v.</string>
+    <string name="sec_illustration_description">Bảo mật và bảo vệ thiết bị của bạn.</string>
+    <string name="sound_illustration_description">Định cấu hình nhạc chuông, âm lượng và âm thanh giao diện người dùng của thiết bị.</string>
+    <string name="privacy_illustration_description">Quản lý quyền truy cập / thông tin riêng tư cho thiết bị của bạn.</string>
+    <string name="system_illustration_description">Định cấu hình ngôn ngữ hệ thống, ngày, giờ, cử chỉ và hơn thế nữa.</string>
+    <string name="apps_illustration_description">Quản lý các ứng dụng đã cài đặt, là ứng dụng mặc định, kiểm tra các ứng dụng có quyền truy cập đặc biệt, bật hoặc tắt ứng dụng, v. v. </string>
+    <string name="battery_illustration_description">Theo dõi tình trạng pin, mức sử dụng và cải thiện việc sử dụng pin.</string>
+    <string name="connectivity_category_title">kết nối</string>
+    <string name="navbar_gesture_custom">Tùy chỉnh cử chỉ điều hướng</string>
+    <string name="usercard_summary">Người dùng đang hoạt động hiện tại, hãy nhấn để biết thêm thông tin</string>
+    <!-- About page -->
+    <string name="battery">Pin</string>
+    <string name="display">Hiển thị</string>
+    <string name="storage">Bộ nhớ</string>
+    <string name="chipset">Bộ xử lý</string>
+    <!-- About phone cards -->
+    <string name="about_device_nearby">Tên thiết bị có thể và sẽ được nhìn thấy bởi các thiết bị gần đó.</string>
+    <string name="about_device_version_type_gapps">Gapps</string>
+    <string name="about_device_version_type_vanilla">Vanilla</string>
+    <string name="version">CherishOS</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="device_name">Tên thiết bị</string>
+    <string name="about_us_info_category_title">Về chúng tôi</string>
+    <string name="cherish_revision">Phiên bản Cherish</string>
+    <string name="cherish_model_info">Thông tin thiết bị</string>
+    <string name="dashboard_morning1">Hãy bắt đầu ngày mới một cách tích cực!</string>
+    <string name="dashboard_morning2">Mặt trời lên rồi!</string>
+    <string name="dashboard_morning3">Một buổi sáng tốt lành..</string>
+    <string name="dashboard_morning4">Thêm một ngày để sống..</string>
+    <string name="dashboard_morning5">Một ngày mới..</string>
+    <string name="dashboard_morning_greeting1">Chào buổi sáng..</string>
+    <string name="dashboard_morning_greeting2">Ngày tốt lành..</string>
+    <string name="dashboard_noon1">Sống cuộc sống của bạn.</string>
+    <string name="dashboard_noon2">Tận hưởng Hoàng hôn.</string>
+    <string name="dashboard_noon3">Chào mừng bạn về nhà..</string>
+    <string name="dashboard_noon4">Hãy tận hưởng một ngày!</string>
+    <string name="dashboard_noon5">Chào mừng trở lại..</string>
+    <string name="dashboard_noon_greeting1">Chào buổi chiều</string>
+    <string name="dashboard_early_night1">Đêm sắp đến..</string>
+    <string name="dashboard_early_night2">Đến giờ ăn tối!</string>
+    <string name="dashboard_early_night_greeting1">Chào buổi tối</string>
+    <string name="dashboard_night3">Những giấc mơ ngọt ngào!</string>
+    <string name="dashboard_night4">Đến giờ đi ngủ..</string>
+    <string name="dashboard_night5">Chúc ngủ ngon!</string>
+    <string name="dashboard_night_greetings1">Chúc ngủ ngon</string>
+    <string name="dashboard_midnight1">Đã khuya rồi..</string>
+    <string name="dashboard_midnight2">Bạn cần một số trợ giúp..</string>
+    <string name="dashboard_midnight3">Ngủ một chút đi..</string>
+    <string name="dashboard_midnight4">Nghỉ ngơi một chút đã..</string>
+    <string name="dashboard_midnight5">Ngủ muộn có hại cho bạn?</string>
+    <string name="dashboard_random1">Này..</string>
+    <string name="dashboard_random2">Xin chào..</string>
+    <string name="dashboard_random3">Chào..</string>
+    <string name="dashboard_random4">Ngày tốt lành..</string>
+    <string name="dashboard_random5">Chào bạn..</string>
+    <string name="dashboard_random6">Có chuyện gì vậy!</string>
+    <string name="dashboard_random_greetings1">Cố gắng tìm một số quả trứng Phục sinh!</string>
+    <string name="dashboard_random_greetings2">Tăng từ dưới lên?</string>
+    <string name="dashboard_random_greetings3">Hãy thử sử dụng thanh tìm kiếm!</string>
+    <string name="dashboard_random_greetings4">Ngày mới vui vẻ!</string>
+    <string name="settings_random1">Tìm kiếm thứ gì đó?</string>
+    <string name="settings_random2">Tìm và bạn sẽ thấy</string>
+    <string name="settings_random3">Tìm kiếm và bạn sẽ tìm thấy</string>
+    <string name="settings_random4">Người giữ công cụ tìm kiếm</string>
+    <string name="settings_random5">Cài đặt tìm kiếm</string>
+    <string name="settings_random6">Bạn không thể tìm thấy thứ gì đó không tồn tại!</string>
+    <string name="default_user">Người dùng</string>
+    <string name="build_status">Trạng thái bản dựng</string>
+    <string name="build_status_summary_placeholder">Có chuyện gì vậy?</string>
+    <string name="build_is_official_title">Thiết bị được hỗ trợ chính thức!</string>
+    <string name="build_is_community_title">Thiết bị không được hỗ trợ chính thức!</string>
+    <string name="build_is_official_summary">Được xây dựng bằng tình yêu bởi %s</string>
+    <string name="build_is_official_summary_oopsie">nhưng, ai đã tạo ra công trình này?</string>
+    <string name="build_is_community_summary">Xây dựng không chính thức bởi %s</string>
+    <string name="build_is_community_summary_oopsie">Xin lỗi! vui lòng nói với người xây dựng rằng anh ấy/cô ấy quên thêm các cờ xây dựng cần thiết!</string>
+    <string name="top_level_settings_title">Cài đặt</string>
+    <string name="my_device_settings">Thiết bị của tôi</string>
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Ngủ sâu</string>
     <!-- SELinux Status -->
     <string name="selinux_status">Trạng thái SELinux</string>
     <string name="selinux_status_disabled">Đã tắt</string>
@@ -79,25 +170,6 @@
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Mở khóa nhanh</string>
     <string name="unlock_quick_unlock_control_summary">Mở khóa tự động khi nhập đúng mật khẩu/PIN</string>
-    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
-    <string name="custom_firmware_version">Phiên bản Cherish</string>
-    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
-    <string name="about_device_info">Về thiết bị</string>
-    <!-- CherishOS versioning -->
-    <string name="cherish_version_title">Phiên bản Cherish</string>
-    <string name="cherish_device_title">Thiết bị</string>
-    <string name="cherish_release_type_title">Loại phiên bản</string>
-    <string name="cherish_maintainer_title">Người chủ trì</string>
-    <!-- About page -->
-    <string name="battery">Pin</string>
-    <string name="display">Hiển thị</string>
-    <string name="storage">Bộ nhớ</string>
-    <string name="chipset">Bộ xử lý</string>
-    <!-- Settings homepage alternative header -->
-    <string name="top_level_settings_title">Cài đặt</string>
-    <string name="wellbeing_title">Google Wellbeing</string>
-    <string name="usercard_summary">Người dùng đang hoạt động hiện tại, hãy nhấn để biết thêm thông tin</string>
-    <string name="connectivity_category_title">kết nối</string>
     <!-- Fullscreen gestures -->
     <string name="navbar_category">Thanh điều hướng</string>
     <!-- Gesture navbar length -->
@@ -338,6 +410,6 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
     <!-- Ringer mode mute speaker media -->
-    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
-    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
+    <string name="ringer_mute_speaker_media_title">Tắt âm lượng phương tiện ở chế độ im lặng hoặc rung</string>
+    <string name="ringer_mute_speaker_media_summary">Tắt âm lượng phương tiện khi chế độ chuông được đặt thành im lặng hoặc rung. Điều này chỉ ảnh hưởng đến loa</string>
 </resources>
